@@ -1,0 +1,28 @@
+[include]
+	# include local configuration
+	path = ~/.gitconfig.local
+
+[core]
+	excludesfile = ~/.gitignore_global
+
+[alias]
+	# short log
+	sl = log --oneline
+	# short status
+	ss = status -sb
+	# diff staged
+	sdiff = diff --cached
+	# graph log
+	graph = log --graph --oneline --decorate
+	# amend latest comit
+	amend = commit --amend --no-edit
+
+[color]
+	ui = true
+
+[push]
+	default = matching
+
+[gui]
+	commitmsgwidth = 78
+

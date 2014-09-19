@@ -1,0 +1,24 @@
+.gitignore
+
+# OS X junk files
+.DS_Store
+.DS_Store\?
+.localized
+Icon\?
+
+# swap files
+.*.sw?
+
+# object files
+*.class
+*.o
+*.pyb
+
+# build results
+target/
+work/
+
+# IDE files
+.idea/
+*.iml
+
