@@ -6,8 +6,9 @@
 .localized
 Icon\?
 
-# swap files
+# swap and temp files
 .*.sw?
+.netrwhist
 
 # object files
 *.class
