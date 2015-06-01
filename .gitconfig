@@ -14,8 +14,10 @@
 	sdiff = diff --cached
 	# graph log
 	graph = log --graph --oneline --decorate
-	# amend latest comit
+	# amend latest commit
 	amend = commit --amend --no-edit
+	# search for a commit
+	search = log --all -i --grep
 
 [color]
 	ui = true
