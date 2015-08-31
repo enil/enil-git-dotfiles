@@ -9,6 +9,7 @@ Icon\?
 # swap and temp files
 .*.sw?
 .netrwhist
+nohup.out
 
 # object files
 *.class
